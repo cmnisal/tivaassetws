@@ -1,0 +1,658 @@
+[10-Mar-2016 17:33:23 America/New_York] 2016-03-27
+[11-Mar-2016 01:29:14 America/New_York] 160326
+[11-Mar-2016 02:22:16 America/New_York] 2016-04-08
+[11-Mar-2016 02:38:47 America/New_York] 2016-03-29
+[11-Mar-2016 05:47:10 America/New_York] 2016-07-12
+[11-Mar-2016 06:10:42 America/New_York] 2016-08-02
+[11-Mar-2016 06:48:39 America/New_York] 2016-04-03
+[11-Mar-2016 06:48:40 America/New_York] 
+[11-Mar-2016 06:57:53 America/New_York] 2016-03-12
+[11-Mar-2016 09:43:56 America/New_York] 2016-04-23
+[11-Mar-2016 09:59:21 America/New_York] 2016-03-26
+[11-Mar-2016 12:11:05 America/New_York] 2016-08-08
+[11-Mar-2016 12:13:40 America/New_York] 2016-03-28
+[11-Mar-2016 13:28:36 America/New_York] 2016-03-30
+[11-Mar-2016 13:31:07 America/New_York] 2016-04-07
+[11-Mar-2016 13:31:07 America/New_York] PHP Warning:  mysqli::mysqli(): (08004/1040): Too many connections in /home/inhotsol/public_html/ibe/source/datasource/DbConnection.php on line 19
+[11-Mar-2016 13:31:21 America/New_York] 
+[11-Mar-2016 13:31:36 America/New_York] 2016-04-07
+[11-Mar-2016 14:42:04 America/New_York] 2016-04-01
+[11-Mar-2016 15:05:01 America/New_York] 2016-07-07
+[11-Mar-2016 16:14:31 America/New_York] 2016-06-11
+[11-Mar-2016 16:51:42 America/New_York] 2016-05-01
+[11-Mar-2016 22:25:12 America/New_York] 2016-04-17
+[11-Mar-2016 23:45:42 America/New_York] 2016-03-19
+[12-Mar-2016 03:05:30 America/New_York] 2016-06-12
+[12-Mar-2016 03:19:56 America/New_York] 2016-03-19
+[12-Mar-2016 04:59:59 America/New_York] 2016-05-01
+[12-Mar-2016 05:01:44 America/New_York] 2016-03-23
+[12-Mar-2016 06:07:38 America/New_York] 2016-03-14
+[12-Mar-2016 07:47:48 America/New_York] 2016-06-12
+[12-Mar-2016 09:43:44 America/New_York] 2016-04-01
+[12-Mar-2016 11:22:22 America/New_York] 2016-03-16
+[12-Mar-2016 20:56:47 America/New_York] 2016-06-05
+[13-Mar-2016 01:47:10 America/New_York] 2016-03-16
+[13-Mar-2016 03:58:20 America/New_York] 2016-03-17
+[13-Mar-2016 04:23:12 America/New_York] 2016-04-03
+[13-Mar-2016 05:05:56 America/New_York] 2016-04-02
+[13-Mar-2016 05:09:19 America/New_York] 2016-03-28
+[13-Mar-2016 09:14:55 America/New_York] 2016-03-14
+[13-Mar-2016 11:14:55 America/New_York] 2016-04-30
+[13-Mar-2016 11:20:29 America/New_York] 2016-03-31
+[13-Mar-2016 12:07:43 America/New_York] 2016-05-02
+[13-Mar-2016 12:34:40 America/New_York] 2016-04-17
+[13-Mar-2016 12:35:59 America/New_York] 2016-04-17
+[13-Mar-2016 15:36:23 America/New_York] 2016-04-03
+[13-Mar-2016 16:35:08 America/New_York] 2016-06-30
+[14-Mar-2016 00:12:28 America/New_York] 2016-03-23
+[14-Mar-2016 01:28:38 America/New_York] 2016-03-20
+[14-Mar-2016 09:08:36 America/New_York] 2016-08-14
+[14-Mar-2016 09:58:36 America/New_York] 2016-03-30
+[14-Mar-2016 10:55:43 America/New_York] 
+[14-Mar-2016 10:55:48 America/New_York] 
+[14-Mar-2016 11:00:14 America/New_York] 
+[14-Mar-2016 14:15:52 America/New_York] 2016-03-27
+[14-Mar-2016 16:11:29 America/New_York] 2016-04-14
+[14-Mar-2016 20:53:09 America/New_York] 2016-03-20
+[15-Mar-2016 00:19:34 America/New_York] 2016-06-13
+[15-Mar-2016 01:12:54 America/New_York] 2016-03-17
+[15-Mar-2016 05:09:16 America/New_York] 2016-03-28
+[15-Mar-2016 06:47:22 America/New_York] 210216
+[15-Mar-2016 07:14:59 America/New_York] 2016-03-19
+[15-Mar-2016 07:15:38 America/New_York] 2016-03-22
+[15-Mar-2016 07:33:09 America/New_York] 2016-03-28
+[15-Mar-2016 08:19:21 America/New_York] 2016-03-26
+[15-Mar-2016 09:01:17 America/New_York] 2016-03-20
+[15-Mar-2016 09:02:49 America/New_York] 2016-03-17
+[15-Mar-2016 09:07:54 America/New_York] 2016-03-18
+[15-Mar-2016 10:01:02 America/New_York] 2016-03-18
+[15-Mar-2016 10:03:11 America/New_York] 2016-04-15
+[15-Mar-2016 13:08:36 America/New_York] 2016-08-14
+[15-Mar-2016 13:14:10 America/New_York] 
+[15-Mar-2016 13:14:10 America/New_York] 2016-12-29
+[15-Mar-2016 13:15:58 America/New_York] 2016-12-29
+[15-Mar-2016 13:46:34 America/New_York] 2016-03-20
+[15-Mar-2016 14:29:17 America/New_York] 2016-04-07
+[15-Mar-2016 14:29:18 America/New_York] 
+[15-Mar-2016 14:49:11 America/New_York] 
+[15-Mar-2016 14:52:27 America/New_York] 2016-04-02
+[15-Mar-2016 16:46:48 America/New_York] 2016-12-29
+[15-Mar-2016 21:39:07 America/New_York] 2016-07-27
+[16-Mar-2016 01:08:08 America/New_York] 2016-03-23
+[16-Mar-2016 01:22:33 America/New_York] 2016-03-20
+[16-Mar-2016 04:15:33 America/New_York] 2016-03-18
+[16-Mar-2016 04:25:36 America/New_York] 2016-03-18
+[16-Mar-2016 06:59:07 America/New_York] 2016-08-06
+[16-Mar-2016 08:08:41 America/New_York] 2016-03-18
+[16-Mar-2016 13:16:52 America/New_York] 2016-03-30
+[16-Mar-2016 13:45:20 America/New_York] 2016-04-01
+[16-Mar-2016 14:46:25 America/New_York] 2017-03-11
+[16-Mar-2016 15:38:11 America/New_York] 2016-03-22
+[16-Mar-2016 16:37:43 America/New_York] 
+[16-Mar-2016 16:56:27 America/New_York] 2016-03-29
+[16-Mar-2016 23:41:20 America/New_York] 2017-01-12
+[17-Mar-2016 01:59:03 America/New_York] 2016-03-20
+[17-Mar-2016 04:11:30 America/New_York] 2016-03-27
+[17-Mar-2016 04:56:28 America/New_York] 
+[17-Mar-2016 06:05:42 America/New_York] 2016-03-22
+[17-Mar-2016 07:30:56 America/New_York] 2016-04-10
+[17-Mar-2016 07:33:36 America/New_York] 
+[17-Mar-2016 07:33:36 America/New_York] 2016-12-29
+[17-Mar-2016 09:47:05 America/New_York] 2016-04-18
+[17-Mar-2016 09:59:40 America/New_York] 2016-03-30
+[17-Mar-2016 11:18:30 America/New_York] 2016-03-22
+[17-Mar-2016 12:45:25 America/New_York] 2016-03-25
+[17-Mar-2016 15:54:05 America/New_York] 2016-12-23
+[17-Mar-2016 17:21:06 America/New_York] 2016-04-07
+[17-Mar-2016 20:00:35 America/New_York] 2016-07-27
+[18-Mar-2016 02:15:25 America/New_York] 2016-03-20
+[18-Mar-2016 02:23:18 America/New_York] 
+[18-Mar-2016 04:27:00 America/New_York] 2016-03-20
+[18-Mar-2016 05:48:29 America/New_York] 2016-08-14
+[18-Mar-2016 08:43:40 America/New_York] 2016-03-22
+[18-Mar-2016 09:34:28 America/New_York] 2016-03-24
+[18-Mar-2016 09:57:54 America/New_York] 2016-04-05
+[18-Mar-2016 14:59:05 America/New_York] 2016-03-20
+[18-Mar-2016 17:30:01 America/New_York] 2016-03-24
+[18-Mar-2016 23:42:48 America/New_York] 2016-04-24
+[19-Mar-2016 01:07:35 America/New_York] 2016-04-23
+[19-Mar-2016 03:51:24 America/New_York] 2016-03-21
+[19-Mar-2016 05:12:15 America/New_York] 2016-03-31
+[19-Mar-2016 05:40:04 America/New_York] 2016-10-18
+[19-Mar-2016 07:02:26 America/New_York] 2016-03-30
+[19-Mar-2016 07:06:19 America/New_York] 2016-03-22
+[19-Mar-2016 09:41:11 America/New_York] 2016-08-22
+[19-Mar-2016 11:07:49 America/New_York] 16/03/24
+[19-Mar-2016 13:32:51 America/New_York] 2016-03-27
+[19-Mar-2016 15:14:30 America/New_York] 2016-04-13
+[19-Mar-2016 15:44:02 America/New_York] 2016-04-16
+[19-Mar-2016 15:49:45 America/New_York] 2016-04-16
+[19-Mar-2016 16:02:22 America/New_York] 2016-04-16
+[19-Mar-2016 16:43:58 America/New_York] 2016-04-12
+[20-Mar-2016 00:37:57 America/New_York] 2016-03-29
+[20-Mar-2016 00:52:23 America/New_York] 2016-03-22
+[20-Mar-2016 02:54:32 America/New_York] 2016-04-16
+[20-Mar-2016 03:59:34 America/New_York] 2016-03-28
+[20-Mar-2016 04:38:16 America/New_York] 2016-03-27
+[20-Mar-2016 05:54:42 America/New_York] 2016-05-07
+[20-Mar-2016 07:29:58 America/New_York] 2016-03-26
+[20-Mar-2016 07:33:10 America/New_York] 2016-03-30
+[20-Mar-2016 07:44:45 America/New_York] 2016-03-24
+[20-Mar-2016 12:46:55 America/New_York] 2016-03-25
+[20-Mar-2016 14:22:24 America/New_York] 2017-03-04
+[20-Mar-2016 15:16:08 America/New_York] 2016-04-15
+[20-Mar-2016 15:43:48 America/New_York] 2016-03-28
+[20-Mar-2016 16:02:06 America/New_York] 2016-12-30
+[20-Mar-2016 16:54:32 America/New_York] 2016-03-26
+[20-Mar-2016 20:36:50 America/New_York] 2016-04-25
+[20-Mar-2016 22:51:04 America/New_York] 2016-03-22
+[21-Mar-2016 02:18:30 America/New_York] 2016-03-23
+[21-Mar-2016 03:16:05 America/New_York] 2016-05-07
+[21-Mar-2016 04:49:23 America/New_York] 2016-03-31
+[21-Mar-2016 05:25:07 America/New_York] 2016-05-02
+[21-Mar-2016 05:28:19 America/New_York] 2016-04-02
+[21-Mar-2016 06:52:20 America/New_York] 2016-03-22
+[21-Mar-2016 07:36:42 America/New_York] 2016-04-20
+[21-Mar-2016 12:25:24 America/New_York] 2016-03-24
+[21-Mar-2016 12:27:21 America/New_York] 2016-03-25
+[21-Mar-2016 15:02:18 America/New_York] 2016-12-31
+[21-Mar-2016 15:05:24 America/New_York] 2016-12-31
+[21-Mar-2016 21:36:24 America/New_York] 2021-03-25
+[21-Mar-2016 22:39:10 America/New_York] 2016-03-25
+[22-Mar-2016 01:20:03 America/New_York] 2016-04-17
+[22-Mar-2016 07:44:15 America/New_York] 2016-05-10
+[22-Mar-2016 09:40:25 America/New_York] 2016-03-26
+[22-Mar-2016 10:11:56 America/New_York] 2016-03-28
+[22-Mar-2016 10:57:43 America/New_York] 2016-04-12
+[22-Mar-2016 11:07:56 America/New_York] 2016-03-28
+[22-Mar-2016 12:40:38 America/New_York] 2016-04-17
+[22-Mar-2016 18:44:01 America/New_York] 2016-04-13
+[23-Mar-2016 00:27:49 America/New_York] 2016-03-27
+[23-Mar-2016 01:27:07 America/New_York] 2016-04-08
+[23-Mar-2016 01:48:18 America/New_York] 2016-03-27
+[23-Mar-2016 01:51:41 America/New_York] 2016-03-26
+[23-Mar-2016 04:38:37 America/New_York] 2016-03-27
+[23-Mar-2016 05:54:16 America/New_York] 2016-03-27
+[23-Mar-2016 08:45:25 America/New_York] 2016-04-14
+[23-Mar-2016 10:32:26 America/New_York] 2016-04-19
+[23-Mar-2016 10:52:17 America/New_York] 2016-05-25
+[23-Mar-2016 10:52:28 America/New_York] 
+[23-Mar-2016 10:53:36 America/New_York] 2016-05-25
+[23-Mar-2016 11:30:10 America/New_York] 2016-03-27
+[23-Mar-2016 14:21:31 America/New_York] 2016-09-02
+[23-Mar-2016 18:00:31 America/New_York] 2016-09-24
+[24-Mar-2016 02:31:35 America/New_York] 2016-04-11
+[24-Mar-2016 03:25:33 America/New_York] 2016-03-27
+[24-Mar-2016 05:05:55 America/New_York] 2016-05-15
+[24-Mar-2016 07:48:43 America/New_York] 2016-04-12
+[24-Mar-2016 07:50:28 America/New_York] 
+[24-Mar-2016 14:14:52 America/New_York] 2016-03-29
+[24-Mar-2016 21:03:57 America/New_York] 2016-06-11
+[25-Mar-2016 01:00:08 America/New_York] 2016-04-20
+[25-Mar-2016 06:08:18 America/New_York] 2016-04-06
+[25-Mar-2016 07:48:44 America/New_York] 2016-04-13
+[25-Mar-2016 08:18:48 America/New_York] 2016-04-16
+[25-Mar-2016 08:37:38 America/New_York] 2016-04-02
+[25-Mar-2016 09:52:57 America/New_York] 2016-03-27
+[25-Mar-2016 10:40:51 America/New_York] 2016-03-27
+[25-Mar-2016 19:48:06 America/New_York] 
+[26-Mar-2016 00:06:25 America/New_York] 2016-03-30
+[26-Mar-2016 04:26:15 America/New_York] 2016-04-16
+[26-Mar-2016 05:06:17 America/New_York] 2016-03-28
+[26-Mar-2016 11:23:06 America/New_York] 2016-08-03
+[26-Mar-2016 17:07:55 America/New_York] 2017-01-07
+[26-Mar-2016 17:42:43 America/New_York] 2016-04-07
+[26-Mar-2016 18:38:24 America/New_York] 2017-01-18
+[27-Mar-2016 01:59:44 America/New_York] 2016-04-03
+[27-Mar-2016 04:48:18 America/New_York] 2016-06-07
+[27-Mar-2016 07:20:47 America/New_York] 2016-03-31
+[27-Mar-2016 07:46:32 America/New_York] 2016-03-29
+[27-Mar-2016 07:46:35 America/New_York] 2016-10-17
+[27-Mar-2016 08:47:46 America/New_York] 2016-06-25
+[27-Mar-2016 09:31:22 America/New_York] 2016-04-02
+[27-Mar-2016 11:09:28 America/New_York] 2016-04-02
+[27-Mar-2016 11:23:56 America/New_York] 2016-08-21
+[27-Mar-2016 12:11:46 America/New_York] 2016-03-30
+[27-Mar-2016 12:31:18 America/New_York] 2016-04-11
+[27-Mar-2016 15:38:15 America/New_York] 2016-04-14
+[28-Mar-2016 00:56:28 America/New_York] 2016-04-26
+[28-Mar-2016 01:00:21 America/New_York] 2016-04-02
+[28-Mar-2016 01:03:40 America/New_York] 2016-04-02
+[28-Mar-2016 03:59:56 America/New_York] 2016-04-23
+[28-Mar-2016 07:15:01 America/New_York] 2016-09-09
+[28-Mar-2016 08:11:44 America/New_York] 2016-04-29
+[28-Mar-2016 08:14:39 America/New_York] 2016-03-31
+[28-Mar-2016 10:23:59 America/New_York] 2016-04-11
+[28-Mar-2016 11:03:31 America/New_York] 2016-04-14
+[28-Mar-2016 17:23:26 America/New_York] 2016-04-02
+[28-Mar-2016 18:41:17 America/New_York] 2016-07-26
+[28-Mar-2016 23:02:54 America/New_York] 
+[29-Mar-2016 01:28:15 America/New_York] 
+[29-Mar-2016 01:28:16 America/New_York] 2017-01-28
+[29-Mar-2016 02:15:12 America/New_York] 2016-06-04
+[29-Mar-2016 04:43:13 America/New_York] 2016-04-03
+[29-Mar-2016 05:28:17 America/New_York] 
+[29-Mar-2016 05:28:19 America/New_York] 2016-04-16
+[29-Mar-2016 05:39:41 America/New_York] 2017-01-19
+[29-Mar-2016 06:14:33 America/New_York] 2016-04-16
+[29-Mar-2016 07:26:06 America/New_York] 2016-12-10
+[29-Mar-2016 09:13:12 America/New_York] 2016-04-15
+[29-Mar-2016 10:55:12 America/New_York] 2016-04-10
+[30-Mar-2016 00:02:21 America/New_York] 2016-04-11
+[30-Mar-2016 00:09:56 America/New_York] 
+[30-Mar-2016 00:09:56 America/New_York] 2016-04-10
+[30-Mar-2016 00:11:41 America/New_York] 2016-04-10
+[30-Mar-2016 00:12:03 America/New_York] 2016-04-10
+[30-Mar-2016 02:04:58 America/New_York] 2016-05-05
+[30-Mar-2016 03:13:34 America/New_York] 2016-04-05
+[30-Mar-2016 08:01:14 America/New_York] 2016-12-11
+[30-Mar-2016 13:06:05 America/New_York] 47796547845878696
+[31-Mar-2016 01:27:18 America/New_York] 2455-04-03
+[31-Mar-2016 01:31:06 America/New_York] 2016-04-03
+[31-Mar-2016 01:31:06 America/New_York] 2455-04-03
+[31-Mar-2016 05:31:13 America/New_York] 2016-04-04
+[31-Mar-2016 05:56:26 America/New_York] 2016-04-19
+[31-Mar-2016 06:11:25 America/New_York] 2016-04-19
+[31-Mar-2016 06:41:53 America/New_York] 2016-04-24
+[31-Mar-2016 07:55:27 America/New_York] 2016-04-19
+[31-Mar-2016 10:28:54 America/New_York] 2016-04-03
+[31-Mar-2016 10:46:14 America/New_York] 
+[31-Mar-2016 12:10:15 America/New_York] 2016-04-18
+[31-Mar-2016 13:17:52 America/New_York] 2016-04-16
+[31-Mar-2016 13:59:58 America/New_York] 2016-08-12
+[31-Mar-2016 22:55:53 America/New_York] 2016-04-19
+[31-Mar-2016 23:02:52 America/New_York] 2016-04-10
+[01-Apr-2016 00:50:13 America/New_York] 2016-04-19
+[01-Apr-2016 02:01:08 America/New_York] 2016-04-17
+[01-Apr-2016 02:01:09 America/New_York] 
+[01-Apr-2016 02:18:45 America/New_York] 2016-04-17
+[01-Apr-2016 05:21:07 America/New_York] 2017-01-05
+[01-Apr-2016 05:37:28 America/New_York] 2016-04-05
+[01-Apr-2016 06:07:23 America/New_York] 2016-04-16
+[01-Apr-2016 08:20:53 America/New_York] 2016-04-03
+[01-Apr-2016 22:25:58 America/New_York] 2017-01-01
+[02-Apr-2016 01:53:25 America/New_York] 2016-04-05
+[02-Apr-2016 06:20:26 America/New_York] 2016-08-25
+[02-Apr-2016 06:59:07 America/New_York] 2016-04-17
+[02-Apr-2016 08:19:23 America/New_York] 2016-08-19
+[02-Apr-2016 09:52:18 America/New_York] 2016-04-27
+[02-Apr-2016 10:18:55 America/New_York] 2017-01-02
+[02-Apr-2016 12:28:18 America/New_York] 2017-01-18
+[02-Apr-2016 14:53:38 America/New_York] 2016-04-11
+[02-Apr-2016 14:53:39 America/New_York] 
+[03-Apr-2016 04:10:15 America/New_York] 2016-11-13
+[03-Apr-2016 07:17:38 America/New_York] 2016-05-01
+[03-Apr-2016 09:52:28 America/New_York] 2016-04-07
+[03-Apr-2016 10:33:57 America/New_York] 2016-04-20
+[03-Apr-2016 10:52:17 America/New_York] 2016-04-20
+[03-Apr-2016 13:25:53 America/New_York] 2016-04-20
+[03-Apr-2016 15:45:36 America/New_York] 2016-05-07
+[03-Apr-2016 15:53:42 America/New_York] 2016-05-07
+[04-Apr-2016 03:11:38 America/New_York] 2016-05-02
+[04-Apr-2016 07:31:09 America/New_York] 2016-04-06
+[04-Apr-2016 07:59:54 America/New_York] 2017-02-27
+[04-Apr-2016 07:59:54 America/New_York] 
+[04-Apr-2016 14:18:55 America/New_York] 2016-04-09
+[04-Apr-2016 22:55:56 America/New_York] 2016-04-30
+[04-Apr-2016 22:56:44 America/New_York] 2016-04-07
+[05-Apr-2016 05:43:28 America/New_York] 2016-04-16
+[05-Apr-2016 05:48:39 America/New_York] 2016-04-17
+[05-Apr-2016 06:42:56 America/New_York] 2016-05-07
+[05-Apr-2016 08:39:17 America/New_York] 2016-04-23
+[05-Apr-2016 11:59:12 America/New_York] 2016-05-15
+[05-Apr-2016 12:32:11 America/New_York] 2016-04-27
+[05-Apr-2016 16:16:38 America/New_York] 2017-01-02
+[05-Apr-2016 16:17:25 America/New_York] 2017-04-12
+[05-Apr-2016 16:21:23 America/New_York] 2016-12-29
+[05-Apr-2016 17:53:36 America/New_York] 2016-08-25
+[05-Apr-2016 22:49:03 America/New_York] 2016-04-15
+[05-Apr-2016 22:56:19 America/New_York] 2016-04-24
+[06-Apr-2016 00:56:41 America/New_York] 2016-04-15
+[06-Apr-2016 02:41:50 America/New_York] 2016-08-08
+[06-Apr-2016 02:44:05 America/New_York] 2016-08-08
+[06-Apr-2016 04:17:41 America/New_York] 2016-04-11
+[06-Apr-2016 04:23:54 America/New_York] 2016-04-30
+[06-Apr-2016 07:51:37 America/New_York] 2016-07-03
+[06-Apr-2016 09:47:48 America/New_York] 2016-04-23
+[06-Apr-2016 10:12:13 America/New_York] 2016-08-20
+[06-Apr-2016 19:52:55 America/New_York] 2016-04-17
+[06-Apr-2016 23:11:34 America/New_York] 
+[07-Apr-2016 00:55:52 America/New_York] 2016-04-09
+[07-Apr-2016 02:17:01 America/New_York] 2016-04-09
+[07-Apr-2016 04:11:29 America/New_York] 2016-04-10
+[07-Apr-2016 04:28:20 America/New_York] 190424
+[07-Apr-2016 04:31:59 America/New_York] 2016-05-09
+[07-Apr-2016 23:51:05 America/New_York] 2017-03-17
+[08-Apr-2016 02:29:06 America/New_York] 2016-05-11
+[08-Apr-2016 05:48:28 America/New_York] 2016-05-09
+[08-Apr-2016 05:52:29 America/New_York] 2016-05-09
+[08-Apr-2016 05:53:30 America/New_York] 2016-04-10
+[08-Apr-2016 06:08:40 America/New_York] 2016-04-16
+[08-Apr-2016 07:51:56 America/New_York] 2016-05-04
+[08-Apr-2016 07:53:06 America/New_York] 2016-05-04
+[08-Apr-2016 21:22:18 America/New_York] 2016-08-11
+[08-Apr-2016 22:48:54 America/New_York] 2016-04-17
+[09-Apr-2016 00:26:29 America/New_York] 2016-04-30
+[09-Apr-2016 01:45:43 America/New_York] 2016-04-13
+[09-Apr-2016 02:58:07 America/New_York] 2016-04-13
+[09-Apr-2016 03:13:58 America/New_York] 2016-12-27
+[09-Apr-2016 04:24:25 America/New_York] 2016-04-18
+[09-Apr-2016 05:40:07 America/New_York] 2016-04-14
+[09-Apr-2016 08:02:18 America/New_York] 2016-04-20
+[09-Apr-2016 10:01:20 America/New_York] 2016-04-17
+[09-Apr-2016 19:07:31 America/New_York] 2016-07-20
+[10-Apr-2016 01:54:45 America/New_York] 2016-04-14
+[10-Apr-2016 01:54:45 America/New_York] 
+[10-Apr-2016 01:59:58 America/New_York] 2016-12-29
+[10-Apr-2016 07:04:23 America/New_York] 2016-04-24
+[10-Apr-2016 07:18:06 America/New_York] 2016-04-23
+[10-Apr-2016 09:03:16 America/New_York] 2016-04-17
+[10-Apr-2016 09:23:09 America/New_York] 2016-06-11
+[10-Apr-2016 09:41:57 America/New_York] 2016-04-16
+[10-Apr-2016 12:56:53 America/New_York] 2016-10-19
+[10-Apr-2016 14:18:24 America/New_York] 2016-12-17
+[10-Apr-2016 22:21:35 America/New_York] 2016-09-24
+[11-Apr-2016 02:29:49 America/New_York] 2016-04-30
+[11-Apr-2016 02:29:55 America/New_York] 2016-04-30
+[11-Apr-2016 03:38:49 America/New_York] 2016-04-15
+[11-Apr-2016 03:52:23 America/New_York] 2016-04-23
+[11-Apr-2016 07:19:42 America/New_York] 2016-04-13
+[11-Apr-2016 07:38:31 America/New_York] 2016-05-14
+[11-Apr-2016 07:41:28 America/New_York] 
+[11-Apr-2016 07:41:29 America/New_York] 2016-05-01
+[11-Apr-2016 11:59:13 America/New_York] 2016-04-13
+[11-Apr-2016 12:35:47 America/New_York] 2017-01-03
+[11-Apr-2016 22:46:54 America/New_York] 2016-04-13
+[12-Apr-2016 02:36:09 America/New_York] 2016-04-19
+[12-Apr-2016 05:22:21 America/New_York] 2016-09-06
+[12-Apr-2016 10:36:45 America/New_York] 2016-04-25
+[13-Apr-2016 05:45:10 America/New_York] 2016-04-20
+[13-Apr-2016 06:22:55 America/New_York] 2016-04-17
+[13-Apr-2016 08:38:20 America/New_York] 2016-04-19
+[13-Apr-2016 09:30:14 America/New_York] 2016-05-02
+[13-Apr-2016 11:24:30 America/New_York] 2016-04-16
+[13-Apr-2016 14:12:01 America/New_York] 2016-04-17
+[13-Apr-2016 17:19:36 America/New_York] 2017-02-14
+[13-Apr-2016 18:26:13 America/New_York] 160921
+[13-Apr-2016 21:37:20 America/New_York] 2016-05-21
+[14-Apr-2016 00:01:11 America/New_York] 2016-04-16
+[14-Apr-2016 03:53:08 America/New_York] 2016-05-27
+[14-Apr-2016 04:34:23 America/New_York] 2016-12-21
+[14-Apr-2016 05:17:52 America/New_York] 2016-04-19
+[14-Apr-2016 05:20:20 America/New_York] 2016-04-23
+[14-Apr-2016 09:06:57 America/New_York] 2016-04-16
+[14-Apr-2016 12:13:50 America/New_York] 2016-04-17
+[14-Apr-2016 12:29:06 America/New_York] 2016-04-16
+[14-Apr-2016 21:01:01 America/New_York] 2016-04-23
+[14-Apr-2016 22:58:14 America/New_York] 2016-04-23
+[15-Apr-2016 02:42:00 America/New_York] 2016-04-16
+[15-Apr-2016 08:43:09 America/New_York] 2016-04-24
+[15-Apr-2016 08:57:02 America/New_York] 2016-04-16
+[15-Apr-2016 09:11:34 America/New_York] 2016-07-17
+[15-Apr-2016 13:59:16 America/New_York] 2016-08-23
+[15-Apr-2016 14:34:12 America/New_York] 2016-08-07
+[16-Apr-2016 01:42:43 America/New_York] 161112
+[16-Apr-2016 04:11:26 America/New_York] 2016-04-17
+[16-Apr-2016 04:22:05 America/New_York] 2016-12-20
+[16-Apr-2016 07:47:34 America/New_York] 2016-04-17
+[16-Apr-2016 10:04:01 America/New_York] 2016-04-30
+[16-Apr-2016 10:32:23 America/New_York] 2016-04-26
+[16-Apr-2016 12:00:27 America/New_York] 2016-04-18
+[16-Apr-2016 12:00:31 America/New_York] 2016-04-18
+[16-Apr-2016 12:00:34 America/New_York] 2016-04-18
+[16-Apr-2016 13:33:11 America/New_York] 2016-06-12
+[16-Apr-2016 17:15:24 America/New_York] 2016-11-03
+[17-Apr-2016 01:02:37 America/New_York] 2016-05-01
+[17-Apr-2016 07:28:03 America/New_York] 2016-05-07
+[17-Apr-2016 07:28:05 America/New_York] 
+[17-Apr-2016 12:41:43 America/New_York] 2017-02-15
+[17-Apr-2016 13:27:29 America/New_York] 2016-05-22
+[17-Apr-2016 16:11:56 America/New_York] 2016-05-16
+[17-Apr-2016 16:29:01 America/New_York] 2016-05-17
+[17-Apr-2016 16:33:20 America/New_York] 2016-05-17
+[18-Apr-2016 01:22:45 America/New_York] 2016-04-21
+[18-Apr-2016 02:06:09 America/New_York] 2016-09-16
+[18-Apr-2016 02:24:45 America/New_York] 2016-09-09
+[18-Apr-2016 02:24:46 America/New_York] 
+[18-Apr-2016 03:34:52 America/New_York] 2016-04-24
+[18-Apr-2016 03:55:55 America/New_York] 2016-04-22
+[18-Apr-2016 06:27:26 America/New_York] 2016-04-23
+[18-Apr-2016 06:37:43 America/New_York] 2016-04-23
+[18-Apr-2016 08:50:34 America/New_York] 2016-08-30
+[18-Apr-2016 12:43:06 America/New_York] 2016-04-28
+[18-Apr-2016 13:45:55 America/New_York] 2016-09-16
+[18-Apr-2016 14:48:19 America/New_York] 2016-04-22
+[19-Apr-2016 02:45:39 America/New_York] 2016-09-30
+[19-Apr-2016 05:52:38 America/New_York] 2017-02-24
+[19-Apr-2016 05:52:50 America/New_York] 2017-02-24
+[19-Apr-2016 06:22:58 America/New_York] 
+[19-Apr-2016 06:25:06 America/New_York] 2016-04-24
+[19-Apr-2016 10:33:29 America/New_York] 2016-04-20
+[19-Apr-2016 12:46:18 America/New_York] 2016-05-22
+[19-Apr-2016 12:48:30 America/New_York] 2016-09-16
+[19-Apr-2016 17:17:51 America/New_York] 2016-05-04
+[19-Apr-2016 18:15:53 America/New_York] 2016-05-07
+[20-Apr-2016 00:15:15 America/New_York] 2016-07-10
+[20-Apr-2016 02:33:26 America/New_York] 2016-05-01
+[20-Apr-2016 02:46:14 America/New_York] 2016-04-24
+[20-Apr-2016 03:41:05 America/New_York] 2016-04-24
+[20-Apr-2016 07:07:31 America/New_York] 
+[20-Apr-2016 07:07:31 America/New_York] 2016-04-24
+[20-Apr-2016 07:10:35 America/New_York] 2016-04-24
+[20-Apr-2016 07:15:23 America/New_York] 2016-07-23
+[20-Apr-2016 11:52:51 America/New_York] 2016-09-14
+[20-Apr-2016 17:26:06 America/New_York] 2017-01-04
+[21-Apr-2016 00:01:42 America/New_York] 2016-05-01
+[21-Apr-2016 01:46:12 America/New_York] 2016-04-22
+[21-Apr-2016 04:21:17 America/New_York] 2016-07-23
+[21-Apr-2016 05:11:16 America/New_York] 2016-06-26
+[21-Apr-2016 12:10:23 America/New_York] 2016-06-10
+[21-Apr-2016 21:28:53 America/New_York] 2016-04-24
+[21-Apr-2016 21:28:53 America/New_York] 2016-04-24
+[21-Apr-2016 21:28:55 America/New_York] 2016-04-24
+[21-Apr-2016 21:29:22 America/New_York] 
+[21-Apr-2016 21:30:21 America/New_York] 
+[21-Apr-2016 21:30:52 America/New_York] 
+[21-Apr-2016 21:31:35 America/New_York] 
+[21-Apr-2016 21:31:59 America/New_York] 
+[21-Apr-2016 21:32:30 America/New_York] 
+[22-Apr-2016 02:23:04 America/New_York] 2016-04-25
+[22-Apr-2016 07:27:49 America/New_York] 
+[22-Apr-2016 07:27:51 America/New_York] 2016-12-31
+[22-Apr-2016 07:56:07 America/New_York] 2016-04-24
+[22-Apr-2016 09:01:55 America/New_York] 2017-02-23
+[22-Apr-2016 09:14:37 America/New_York] 
+[22-Apr-2016 09:14:37 America/New_York] 2017-01-05
+[22-Apr-2016 12:08:45 America/New_York] 
+[22-Apr-2016 12:09:07 America/New_York] 2016-08-18
+[23-Apr-2016 00:02:36 America/New_York] 2016-07-19
+[23-Apr-2016 05:42:22 America/New_York] 2017-02-27
+[23-Apr-2016 07:53:43 America/New_York] 2016-05-02
+[23-Apr-2016 09:47:45 America/New_York] 2016-04-26
+[23-Apr-2016 09:50:01 America/New_York] 2016-04-30
+[23-Apr-2016 10:26:56 America/New_York] 2016-04-30
+[23-Apr-2016 10:29:13 America/New_York] 2016-04-30
+[23-Apr-2016 11:34:00 America/New_York] 2016-04-25
+[23-Apr-2016 12:24:58 America/New_York] 2016-04-29
+[24-Apr-2016 01:44:19 America/New_York] 2016-08-23
+[24-Apr-2016 04:44:17 America/New_York] 2016-05-02
+[24-Apr-2016 07:53:48 America/New_York] 2017-01-02
+[24-Apr-2016 11:13:31 America/New_York] 2016-04-25
+[24-Apr-2016 12:22:24 America/New_York] 2016-04-28
+[24-Apr-2016 12:42:49 America/New_York] 2016-09-07
+[24-Apr-2016 12:55:20 America/New_York] 2017-02-15
+[24-Apr-2016 14:29:02 America/New_York] 2017-01-02
+[24-Apr-2016 20:52:27 America/New_York] 2016-04-28
+[24-Apr-2016 23:07:44 America/New_York] 2016-05-06
+[24-Apr-2016 23:22:58 America/New_York] 2016-05-05
+[25-Apr-2016 02:25:30 America/New_York] 2016-05-07
+[25-Apr-2016 02:25:30 America/New_York] 
+[25-Apr-2016 05:21:21 America/New_York] 2016-09-02
+[25-Apr-2016 09:45:13 America/New_York] 2016-04-30
+[25-Apr-2016 09:45:25 America/New_York] 2016-04-30
+[25-Apr-2016 09:46:03 America/New_York] 2016-05-30
+[25-Apr-2016 09:47:09 America/New_York] 2016-05-30
+[25-Apr-2016 09:47:23 America/New_York] 2016-05-30
+[26-Apr-2016 00:12:07 America/New_York] 2016-09-02
+[26-Apr-2016 00:30:16 America/New_York] 2016-07-24
+[26-Apr-2016 00:30:58 America/New_York] 2016-07-24
+[26-Apr-2016 01:31:44 America/New_York] 2016-06-12
+[26-Apr-2016 01:50:33 America/New_York] 2016-05-01
+[26-Apr-2016 02:28:16 America/New_York] 2016-04-29
+[26-Apr-2016 03:06:48 America/New_York] 2017-01-08
+[26-Apr-2016 06:44:38 America/New_York] 2016-06-17
+[26-Apr-2016 07:34:38 America/New_York] 2016-04-30
+[26-Apr-2016 09:55:49 America/New_York] 2016-08-09
+[26-Apr-2016 13:31:00 America/New_York] 2016-09-11
+[26-Apr-2016 13:54:41 America/New_York] 2016-09-09
+[26-Apr-2016 16:40:45 America/New_York] 2016-09-10
+[26-Apr-2016 22:40:40 America/New_York] 2016-05-08
+[27-Apr-2016 00:27:51 America/New_York] 2016-05-02
+[27-Apr-2016 01:11:40 America/New_York] 2016-07-01
+[27-Apr-2016 07:56:53 America/New_York] 2016-05-11
+[27-Apr-2016 10:05:36 America/New_York] 2016-04-30
+[27-Apr-2016 11:12:36 America/New_York] 2016-05-23
+[27-Apr-2016 23:19:37 America/New_York] 2016-04-30
+[28-Apr-2016 00:25:47 America/New_York] 2016-04-30
+[28-Apr-2016 01:58:18 America/New_York] 2016-05-01
+[28-Apr-2016 05:41:51 America/New_York] 2016-04-30
+[28-Apr-2016 09:55:06 America/New_York] 2016-05-24
+[28-Apr-2016 11:43:06 America/New_York] 2016-06-11
+[28-Apr-2016 17:09:45 America/New_York] 2016-09-17
+[28-Apr-2016 22:06:57 America/New_York] 2016-05-29
+[29-Apr-2016 01:18:04 America/New_York] 2016-05-04
+[29-Apr-2016 06:06:58 America/New_York] 2016-05-09
+[29-Apr-2016 06:06:59 America/New_York] 
+[29-Apr-2016 06:06:59 America/New_York] 
+[29-Apr-2016 06:06:59 America/New_York] 
+[29-Apr-2016 06:08:37 America/New_York] 2016-05-01
+[29-Apr-2016 14:01:38 America/New_York] 2016-05-08
+[29-Apr-2016 15:46:35 America/New_York] 2016-06-24
+[30-Apr-2016 01:33:50 America/New_York] 
+[30-Apr-2016 03:33:09 America/New_York] 2016-05-07
+[30-Apr-2016 04:52:29 America/New_York] 2016-05-03
+[30-Apr-2016 09:11:46 America/New_York] 2016-08-14
+[30-Apr-2016 10:03:36 America/New_York] 2016-05-29
+[01-May-2016 00:40:00 America/New_York] 2016-05-23
+[01-May-2016 01:59:53 America/New_York] 2016-05-07
+[01-May-2016 02:40:52 America/New_York] 2016-05-05
+[01-May-2016 05:28:19 America/New_York] 2016-10-07
+[01-May-2016 06:02:35 America/New_York] 2016-05-03
+[01-May-2016 06:02:37 America/New_York] 2016-05-03
+[01-May-2016 11:52:19 America/New_York] 2016-05-19
+[01-May-2016 13:22:55 America/New_York] 2017-11-11
+[01-May-2016 14:35:40 America/New_York] 2017-02-04
+[01-May-2016 15:54:27 America/New_York] 2017-01-04
+[02-May-2016 00:55:54 America/New_York] 2016-06-26
+[02-May-2016 01:52:59 America/New_York] 2016-06-19
+[02-May-2016 01:53:00 America/New_York] 
+[02-May-2016 02:00:28 America/New_York] 2016-12-10
+[02-May-2016 02:04:44 America/New_York] 2016-05-12
+[02-May-2016 07:34:59 America/New_York] 
+[02-May-2016 07:35:20 America/New_York] 
+[02-May-2016 11:58:21 America/New_York] 2016-05-03
+[03-May-2016 00:18:40 America/New_York] 2016-05-07
+[03-May-2016 03:48:45 America/New_York] 2016-06-14
+[03-May-2016 03:48:46 America/New_York] 
+[03-May-2016 05:17:57 America/New_York] 2016-05-08
+[03-May-2016 11:37:39 America/New_York] 2016-05-17
+[03-May-2016 13:02:10 America/New_York] 2016-05-07
+[03-May-2016 13:42:56 America/New_York] 2016-05-17
+[03-May-2016 14:47:45 America/New_York] 2017-01-15
+[03-May-2016 16:58:39 America/New_York] 2016-12-28
+[03-May-2016 17:31:24 America/New_York] 2017-01-09
+[04-May-2016 04:58:29 America/New_York] 2016-05-06
+[04-May-2016 05:48:59 America/New_York] 2016-05-06
+[04-May-2016 05:57:10 America/New_York] 2016-05-27
+[04-May-2016 05:58:13 America/New_York] 2016-05-13
+[04-May-2016 12:09:47 America/New_York] 2016-05-23
+[04-May-2016 14:47:55 America/New_York] 2016-07-14
+[04-May-2016 17:20:48 America/New_York] 2017-02-24
+[04-May-2016 22:26:53 America/New_York] 2016-05-28
+[04-May-2016 22:33:46 America/New_York] 2016-05-28
+[05-May-2016 07:10:41 America/New_York] 2016-05-23
+[05-May-2016 07:56:57 America/New_York] 2017-02-13
+[05-May-2016 09:53:06 America/New_York] 2016-12-26
+[05-May-2016 11:12:28 America/New_York] 2016-05-23
+[05-May-2016 11:17:53 America/New_York] 2016-08-08
+[05-May-2016 16:00:20 America/New_York] 2016-11-21
+[06-May-2016 01:40:14 America/New_York] 2017-01-04
+[06-May-2016 02:51:46 America/New_York] 
+[06-May-2016 02:51:47 America/New_York] 2016-05-08
+[06-May-2016 16:38:46 America/New_York] 2016-06-08
+[06-May-2016 21:01:33 America/New_York] 2016-05-07
+[07-May-2016 00:53:35 America/New_York] 2017-01-02
+[07-May-2016 03:12:39 America/New_York] 2016-05-31
+[08-May-2016 00:52:45 America/New_York] 2016-05-11
+[08-May-2016 03:15:14 America/New_York] 2016-12-30
+[08-May-2016 10:37:39 America/New_York] 2016-05-14
+[08-May-2016 17:57:24 America/New_York] 2016-08-23
+[09-May-2016 03:32:37 America/New_York] 2017-01-02
+[09-May-2016 03:35:07 America/New_York] 
+[09-May-2016 03:35:07 America/New_York] 2016-09-09
+[09-May-2016 03:35:08 America/New_York] 
+[09-May-2016 03:35:17 America/New_York] 
+[09-May-2016 03:35:18 America/New_York] 
+[09-May-2016 06:16:43 America/New_York] 2016-05-26
+[09-May-2016 06:57:51 America/New_York] 2016-08-23
+[09-May-2016 09:55:56 America/New_York] 2016-05-16
+[09-May-2016 10:27:23 America/New_York] 2016-05-18
+[09-May-2016 11:10:00 America/New_York] 2016-05-10
+[09-May-2016 11:20:26 America/New_York] 2016-05-21
+[09-May-2016 12:13:40 America/New_York] 2016-08-06
+[09-May-2016 13:17:37 America/New_York] 2016-12-26
+[09-May-2016 15:43:27 America/New_York] 2016-05-28
+[09-May-2016 20:38:23 America/New_York] 2016-05-26
+[09-May-2016 21:08:51 America/New_York] 2016-05-20
+[09-May-2016 22:03:35 America/New_York] 2016-05-11
+[09-May-2016 22:08:03 America/New_York] 2016-05-11
+[10-May-2016 01:16:21 America/New_York] 2016-05-12
+[10-May-2016 01:55:43 America/New_York] 2017-01-01
+[10-May-2016 02:07:28 America/New_York] 2016-05-22
+[10-May-2016 02:55:32 America/New_York] 2016-05-15
+[10-May-2016 03:04:59 America/New_York] 2016-05-17
+[10-May-2016 03:11:16 America/New_York] 2017-01-04
+[10-May-2016 04:26:00 America/New_York] 
+[10-May-2016 04:26:00 America/New_York] 17/01/07
+[10-May-2016 04:26:45 America/New_York] 17/01/07
+[10-May-2016 06:39:31 America/New_York] 2016-05-23
+[10-May-2016 07:30:37 America/New_York] 2016-05-12
+[10-May-2016 15:25:39 America/New_York] 2016-11-24
+[10-May-2016 20:22:20 America/New_York] 2016-05-19
+[11-May-2016 04:27:45 America/New_York] 2016-12-31
+[11-May-2016 04:46:56 America/New_York] 2016-12-29
+[11-May-2016 05:18:11 America/New_York] 2016-05-12
+[11-May-2016 05:43:50 America/New_York] 2016-12-16
+[11-May-2016 05:45:00 America/New_York] 2016-06-10
+[11-May-2016 05:53:13 America/New_York] 2016-05-22
+[11-May-2016 07:25:52 America/New_York] 2016-05-12
+[11-May-2016 11:45:09 America/New_York] 2016-05-13
+[11-May-2016 15:48:31 America/New_York] 2016-10-28
+[11-May-2016 18:44:57 America/New_York] 2017-03-12
+[11-May-2016 20:36:33 America/New_York] 2016-05-27
+[11-May-2016 20:47:03 America/New_York] 2016-05-29
+[11-May-2016 23:53:12 America/New_York] 2017-04-12
+[12-May-2016 00:35:52 America/New_York] 2016-05-29
+[12-May-2016 03:50:58 America/New_York] 2016-09-09
+[12-May-2016 04:03:43 America/New_York] 2016-09-09
+[12-May-2016 04:29:39 America/New_York] 2017-01-14
+[12-May-2016 05:19:13 America/New_York] 2016-06-05
+[12-May-2016 05:47:21 America/New_York] 2016-05-23
+[12-May-2016 09:16:22 America/New_York] 2016-05-13
+[12-May-2016 11:16:47 America/New_York] 2016-05-22
+[12-May-2016 15:24:21 America/New_York] 2016-10-13
+[12-May-2016 19:07:51 America/New_York] 2016-05-14
+[12-May-2016 22:53:09 America/New_York] 2016-05-17
+[12-May-2016 22:53:15 America/New_York] 2016-05-27
+[12-May-2016 23:43:00 America/New_York] 2016-05-24
+[13-May-2016 04:22:59 America/New_York] 
+[13-May-2016 04:23:57 America/New_York] 
+[15-May-2016 15:21:27 America/New_York] 
+[27-May-2016 04:44:52 America/New_York] 
+[02-Jun-2016 20:15:43 America/New_York] 
+[12-Jun-2016 01:03:19 America/New_York] 
+[13-Jun-2016 23:04:22 America/New_York] 
+[18-Jun-2016 23:03:00 America/New_York] 
+[23-Jun-2016 02:15:51 America/New_York] 
+[23-Jun-2016 02:16:27 America/New_York] 
+[23-Jun-2016 02:16:56 America/New_York] 

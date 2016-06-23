@@ -1,0 +1,18 @@
+@font-face {
+    font-family:century-gothic;
+    src:url('../view/font/century-gothic.ttf');
+    src:url('../view/font/century_gothic.eot?#iefix') format('embedded-opentype'),
+    url('../view/font/century-gothic.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+    font-family: century-gothic !important;
+}
+
+span{
+    font-family: century-gothic !important;
+}
+
+
