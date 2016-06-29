@@ -7,7 +7,7 @@
 		$connection = null;
 		try{
 		
-			$serverName = "(192.168.0.29/AssetDB)";
+			$serverName = "192.168.0.24";
 			$connectionInfo = array("Database"=>"AssetDB", "UID"=>"sa", "PWD"=>"saproadmin#67");
 			//connect to the database
 			$connection = sqlsrv_connect($serverName, $connectionInfo);
