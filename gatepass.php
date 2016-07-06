@@ -1,8 +1,20 @@
 <?php
+if (!session_start()) {
+    session_start();
+}
+$_SESSION['email'] = "nisal@ticti.com";
+$email = $_SESSION['email'];
+include 'db_connection/db_connector.php';
+$conn = local_connect();
 
-
-?>
-<!DOCTYPE html>
+$query = 'SELECT * FROM tblAssetGatePass WHERE GatepassID IN ('
+        . ' SELECT GatepassID FROM tblAssetGatePass WHERE Status<3 EXCEPT SELECT GatepassID FROM tblAssetGatePassApprove WHERE email = ?) ';
+$param = array('$email');
+$stmt = sqlsrv_query($conn, $query, $param);
+if ($stmt === false) {
+    echo "Error in query preparation/execution\n";
+}
+?><!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Sapro Asset Management - Gatepass Approval</title>
@@ -15,46 +27,69 @@
     <body>
 
         <div class="container">
-            <form class="form-horizontal" role="form" method="post" action="gatepass.php">
                 <nav class="navbar navbar-inverse">
                     <div class="container-fluid">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="#">Sapro Asset Management - Gatepass Approval</a>
+                            <a class="navbar-brand" href="#">Sapro Asset Management - Gatepass Approval </a>
                         </div>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Signout</a></li>
+
+                            <li><a href="#"><?php echo $email; ?> <span class="glyphicon glyphicon-log-in"></span>  Signout </a></li>
                         </ul>
                     </div>
                 </nav>
-                <div class="container-fluid"> 
-                    <div class="col-sm-3"><h4>Gatepass ID:<?php echo 123;?></h4></div>
-                    <div class="col-sm-5"><h4>Authorized to:</h4></div>
-                    <div class="col-sm-3"><button class="btn btn-primary text-right" style="float: right;" type="button"
-                                    data-toggle="collapse" data-target="#view"
-                                    aria-expanded="false" data-width="140" data-height="40"
-                                    aria-controls="#">
-                                View Items
-                        </button></div></div>
-                    <div class="collapse" id="view">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Item Code</th>
-                                    <th>Description</th>
-                                    <th>Reason For Removal of Item </th>
-                                </tr>
-                                <tr>
-                                    <td>ITM-0001</td>
-                                    <td>Item 0001</td>
-                                    <td>General Repair</td>
-                                </tr>
-                            </thead>
-                        </table>
-                        <div class="col-sm-10"></div><div class="btn-group"><button id="approve" type="submit" name="approve" value="approve" class="btn btn-success">Approve</button><button  id="reject" type="submit" name="reject" value="Reject" class="btn btn-danger">Reject</button></div>
-                        <?php echo "<p class='text-danger'>$errMessage</p>"; ?>
+
+                <?php
+                while ($obj = sqlsrv_fetch_object($stmt)) {
+                    $gatepassID = $obj->GatePassID;
+                    $authorizedTo = $obj->authorizeTo;
+                    $queryItems = 'SELECT a.ItemCode,b.Description,a.RequestRemark 
+                        FROM [tblAssetGatePassItem] a LEFT JOIN [tblItemMaster] b ON a.ItemCode = b.ItemCode
+                        WHERE a.GatePassID = ?';
+                    $param = array($gatepassID);
+                    $stmt2 = sqlsrv_query($conn, $queryItems, $param);
+                    if ($stmt2 === false) {
+                        echo "Error in item query preparation/execution.\n";
+                    }
+                    ?>
+                    <div class="well"> 
+                        <form  method="post" action="approveGatepass.php?ID=<?php echo $gatepassID;?>">
+                        <div class="row">
+                            <div class="col-sm-3"><h4>Gatepass ID: <?php echo $gatepassID; ?></h4></div>
+                            <div class="col-sm-6"><h4>Authorized to: <?php echo $authorizedTo; ?></h4></div>
+                            <div class="col-sm-3"><button class="btn btn-primary text-right" style="float: right;" type="button"
+                                                          data-toggle="collapse" data-target="#<?php echo $gatepassID; ?>"  accesskey="">
+                                    View Items
+                                </button></div>
+                        </div>
+                        <div class="collapse" id="<?php echo $gatepassID; ?>">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Item Code</th>
+                                        <th>Description</th>
+                                        <th>Reason For Removal of Item </th>
+                                    </tr><?php
+                                    while ($obj2 = sqlsrv_fetch_object($stmt2)) {
+                                        $items['itemCode'] = $obj2->ItemCode;
+                                        $items['description'] = $obj2->Description;
+                                        $items['remark'] = $obj2->RequestRemark;
+                                        ?>
+                                        <tr>
+                                            <td><?php echo $items['itemCode']; ?></td>
+                                            <td><?php echo $items['description']; ?></td>
+                                            <td><?php echo $items['remark']; ?></td>
+                                        </tr>
+                                    <?php } ?>
+                                </thead>
+                            </table>
+                            <div class="col-sm-10"></div><div class="btn-group"><button id="approve" type="submit" name="approve" value="1" class="btn btn-success">Approve</button><button  id="reject" type="submit" name="reject" value="0" class="btn btn-danger">Reject</button></div>
+
+
+                        </div>
+                        </form>
                     </div>
-                </div>
-            </form>
+                <?php } ?>
         </div>
 
 
