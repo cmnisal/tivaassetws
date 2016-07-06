@@ -1,19 +1,6 @@
 <?php
-if (isset($_POST["submit"])) {
 
-    // Check if reamrk has been entered
-    if (!$_POST['remark']) {
-        $errMessage = 'Please enter reamrk for your approval';
-    }
-// If there are no errors, send the email
-    if (!$errMessage && !$errHuman) {
-        if (mail($to, $subject, $body, $from)) {
-            $result = '<div class="alert alert-success">Thank You! I will be in touch</div>';
-        } else {
-            $result = '<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-        }
-    }
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,28 +26,31 @@ if (isset($_POST["submit"])) {
                         </ul>
                     </div>
                 </nav>
-                <div class="container-fluid">    
-                    <div class="table-responsive">
+                <div class="container-fluid"> 
+                    <div class="col-sm-3"><h4>Gatepass ID:<?php echo 123;?></h4></div>
+                    <div class="col-sm-5"><h4>Authorized to:</h4></div>
+                    <div class="col-sm-3"><button class="btn btn-primary text-right" style="float: right;" type="button"
+                                    data-toggle="collapse" data-target="#view"
+                                    aria-expanded="false" data-width="140" data-height="40"
+                                    aria-controls="#">
+                                View Items
+                        </button></div></div>
+                    <div class="collapse" id="view">
                         <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th>Item Code</th>
                                     <th>Description</th>
                                     <th>Reason For Removal of Item </th>
-                                    <th>Status</th>
-                                    <th>Remarks for Approval</th>
-                                    <th>Approval</th>
                                 </tr>
                                 <tr>
                                     <td>ITM-0001</td>
                                     <td>Item 0001</td>
                                     <td>General Repair</td>
-                                    <td><span class="label label-warning">Approved 1/2</span></td>
-                                    <td><input id="remark" type="text" class="form-control" placeholder="Remark for Approval"/></td>
-                                    <td><div class="btn-group"><input id="reject" type="submit" name="reject" value="Reject" class="btn btn-danger"></div></td>
                                 </tr>
                             </thead>
                         </table>
+                        <div class="col-sm-10"></div><div class="btn-group"><button id="approve" type="submit" name="approve" value="approve" class="btn btn-success">Approve</button><button  id="reject" type="submit" name="reject" value="Reject" class="btn btn-danger">Reject</button></div>
                         <?php echo "<p class='text-danger'>$errMessage</p>"; ?>
                     </div>
                 </div>
