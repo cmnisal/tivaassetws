@@ -2,11 +2,32 @@
 if (!session_start()) {
     session_start();
 }
-$_SESSION['email'] = "nisal@ticti.com";
-$email = $_SESSION['email'];
 include 'db_connection/db_connector.php';
 $conn = local_connect();
+$logged = false;
+if (isset($_SESSION['logged']))
+    $logged = $_SESSION['logged'];
+if (!$logged) {
+    if ((isset($_POST["email"]) && isset($_POST["password"]))) {
+        $email = $_POST["email"];
+        $password = $_POST["password"];
+        //echo "email - ".$email."\nPass-".$password;
+        $query = "SELECT * FROM tblAssetGatePassAuthPerson WHERE email = '$email' AND password = '$password'";
+        //echo $query;
+        $stmt = sqlsrv_query($conn, $query);
+        if (!sqlsrv_has_rows($stmt)) {
+            header('Location:gatepassLogin.php?login=0');
+        }else{
+        $_SESSION['logged'] = true;
 
+        $_SESSION['email'] = $_POST["email"];
+    }
+    }
+}
+$alerttype = 'success';
+$alertMsg = '';
+$alertTitle = '';
+$email = $_SESSION['email'];
 $query = 'SELECT * FROM tblAssetGatePass WHERE GatepassID IN ('
         . ' SELECT GatepassID FROM tblAssetGatePass WHERE Status<3 EXCEPT SELECT GatepassID FROM tblAssetGatePassApprove WHERE email = ?) ';
 $param = array('$email');
@@ -25,35 +46,41 @@ if ($stmt === false) {
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
     <body>
-
         <div class="container">
-                <nav class="navbar navbar-inverse">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="#">Sapro Asset Management - Gatepass Approval </a>
-                        </div>
-                        <ul class="nav navbar-nav navbar-right">
-
-                            <li><a href="#"><?php echo $email; ?> <span class="glyphicon glyphicon-log-in"></span>  Signout </a></li>
-                        </ul>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Sapro Asset Management - Gatepass Approval </a>
                     </div>
-                </nav>
+                    <ul class="nav navbar-nav navbar-right">
 
-                <?php
-                while ($obj = sqlsrv_fetch_object($stmt)) {
-                    $gatepassID = $obj->GatePassID;
-                    $authorizedTo = $obj->authorizeTo;
-                    $queryItems = 'SELECT a.ItemCode,b.Description,a.RequestRemark 
+                        <li><a href="gatepassLogout.php"><?php echo $email; ?> <span class="glyphicon glyphicon-log-in"></span>  Signout </a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <?php
+            if (!sqlsrv_has_rows($stmt)) {
+                $alertTitle = "Done! ";
+                $alertMsg = "No Gatepasses to Approve.";
+            }
+            while ($obj = sqlsrv_fetch_object($stmt)) {
+                $gatepassID = $obj->GatePassID;
+                $authorizedTo = $obj->authorizeTo;
+                $queryItems = 'SELECT a.ItemCode,b.Description,a.RequestRemark 
                         FROM [tblAssetGatePassItem] a LEFT JOIN [tblItemMaster] b ON a.ItemCode = b.ItemCode
                         WHERE a.GatePassID = ?';
-                    $param = array($gatepassID);
-                    $stmt2 = sqlsrv_query($conn, $queryItems, $param);
-                    if ($stmt2 === false) {
-                        echo "Error in item query preparation/execution.\n";
-                    }
-                    ?>
-                    <div class="well"> 
-                        <form  method="post" action="approveGatepass.php?ID=<?php echo $gatepassID;?>">
+                $param = array($gatepassID);
+                $stmt2 = sqlsrv_query($conn, $queryItems, $param);
+
+                if ($stmt2 === false) {
+                    $alerttype = 'danger';
+                    $alertMsg = "Error in Gatepass query preparation/execution.\n";
+                }
+                ?>
+
+                <div class="well"> 
+                    <form  method="post" action="gatepassApprove.php?ID=<?php echo $gatepassID; ?>">
                         <div class="row">
                             <div class="col-sm-3"><h4>Gatepass ID: <?php echo $gatepassID; ?></h4></div>
                             <div class="col-sm-6"><h4>Authorized to: <?php echo $authorizedTo; ?></h4></div>
@@ -83,13 +110,16 @@ if ($stmt === false) {
                                     <?php } ?>
                                 </thead>
                             </table>
-                            <div class="col-sm-10"></div><div class="btn-group"><button id="approve" type="submit" name="approve" value="1" class="btn btn-success">Approve</button><button  id="reject" type="submit" name="reject" value="0" class="btn btn-danger">Reject</button></div>
+                            <div class="col-sm-10"></div><div class="btn-group"><button id="approve" type="submit" name="approve" value="1" class="btn btn-success">Approve</button><button  id="reject" type="submit" name="approve" value="0" class="btn btn-danger">Reject</button></div>
 
 
                         </div>
-                        </form>
-                    </div>
-                <?php } ?>
+                    </form>
+                </div>
+            <?php } ?>
+            <div><div class="alert alert-<?php echo $alerttype; ?>">
+                    <strong><?php echo $alertTitle; ?></strong><?php echo $alertMsg; ?>
+                </div></div>
         </div>
 
 

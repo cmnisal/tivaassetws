@@ -1,9 +1,10 @@
 <?php
-//header('Location:gatepass.php');
+header('Location:gatepassView.php');
 if (!session_start()) {
     session_start();
 }
 include 'db_connection/db_connector.php';
+$_SESSION['logged'] = true;
 $conn = local_connect();
 $gatepassID = $_GET['ID'];  
 $email = $_SESSION['email'];
